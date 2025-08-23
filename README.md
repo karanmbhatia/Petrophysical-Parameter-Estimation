@@ -7,7 +7,7 @@ A well log analysis project using machine learning to predict porosity (phi), wa
 - **Payzone Classification**: Train a classification model to detect payzones (hydrocarbon-bearing zones).  
 - **Web Application**: Deploy models using **Streamlit** with interactive data visualization and prediction capabilities.  
 
-## ⚙️ Workflow
+##  Workflow
 ### 1. **Data Preparation**
 - Used **lasio** to extract logs from `.las` files.  
 - Preprocessed and integrated well logs into structured CSV files.  
@@ -27,7 +27,7 @@ A well log analysis project using machine learning to predict porosity (phi), wa
   - `1_Payzone_Prediction.py`: Upload logs → Predict payzones → Highlight intervals on depth plots.  
 - Interactive plots, error metrics (MAE, RMSE, Correlation), and CSV downloads.  
 
-## 🚀 How to Run
+##  How to Run
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/your-username/well-log-analysis.git
