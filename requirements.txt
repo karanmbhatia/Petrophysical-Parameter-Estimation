@@ -1,0 +1,9 @@
+txt
+streamlit
+pandas
+matplotlib
+scikit-learn
+xgboost
+lasio
+joblib
+numpy
