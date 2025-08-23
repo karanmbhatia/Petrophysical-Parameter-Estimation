@@ -27,8 +27,3 @@ A well log analysis project using machine learning to predict porosity (phi), wa
   - `1_Payzone_Prediction.py`: Upload logs → Predict payzones → Highlight intervals on depth plots.  
 - Interactive plots, error metrics (MAE, RMSE, Correlation), and CSV downloads.  
 
-##  How to Run
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/well-log-analysis.git
-cd well-log-analysis
