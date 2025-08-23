@@ -1,8 +1,5 @@
 # Petrophysical-Parameter-Estimation
 A well log analysis project using machine learning to predict porosity (phi), water saturation (Sw), and identify hydrocarbon payzones. Includes model training notebooks and an interactive Streamlit web application for visualization and prediction.
-# Well Log Analysis – Porosity, Saturation & Payzone Prediction
-
-This project was developed during my internship to build a **machine learning pipeline** and a **Streamlit-based web application** for predicting **porosity (φ)**, **water saturation (Sw)**, and identifying **payzones** from well log data.  
 
 ##  Project Overview
 - **LAS File Integration**: Extract and integrate `.las` well log files into a structured dataset.  
