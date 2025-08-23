@@ -7,22 +7,6 @@ A well log analysis project using machine learning to predict porosity (phi), wa
 - **Payzone Classification**: Train a classification model to detect payzones (hydrocarbon-bearing zones).  
 - **Web Application**: Deploy models using **Streamlit** with interactive data visualization and prediction capabilities.  
 
-##  Repository Structure
-├── notebooks/
-│ ├── las_files.ipynb # Extract & preprocess LAS well log files
-│ ├── final.ipynb # Train models for porosity (phi) and saturation (sw)
-│ ├── payzone_classifier.ipynb # Train payzone classification model
-│
-├── app/
-│ ├── Porosity_and_Saturation.py # Streamlit app for phi & sw prediction [Web UI]
-│ ├── 1_Payzone_Prediction.py # Streamlit app for payzone detection [Web UI]
-│
-├── models/ # Saved models (scaler.pkl, ensemble_phi.pkl, ensemble_sw.pkl, payzone_model.pkl)
-│
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-
-
 ## ⚙️ Workflow
 ### 1. **Data Preparation**
 - Used **lasio** to extract logs from `.las` files.  
